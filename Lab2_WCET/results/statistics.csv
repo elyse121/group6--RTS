@@ -1,0 +1,7 @@
+Function,Strategy,Samples,Min_us,Mean_us,Max_us,StdDev_us,P90_us,P95_us,P99_us,Max_over_P99,Outlier_flag,Extreme_outliers,Margin_pct,Recommended_WCET_us
+early_exit_search,random,500,0.400,51.517,755.100,60.299,92.020,119.450,260.465,2.90,True,9,50,1132.650
+early_exit_search,adversarial,500,68.400,88.982,502.200,35.734,130.130,143.470,202.252,2.48,True,63,50,753.300
+collatz_loop,random,500,1.900,11.905,266.900,16.589,17.900,20.110,25.522,10.46,True,3,50,400.350
+collatz_loop,adversarial,500,32.400,43.457,1086.700,54.850,55.140,66.320,136.400,7.97,True,49,50,1630.050
+nested_packet,random,500,0.900,4.944,31.700,5.046,11.110,15.300,23.710,1.34,False,12,50,47.550
+nested_packet,adversarial,500,21.600,28.350,599.600,28.384,38.610,44.610,73.791,8.13,True,98,50,899.400

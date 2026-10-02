@@ -1,0 +1,4 @@
+Function,Random_Max_us,Adversarial_Max_us,Adv_over_Random,Largest_observed_from,Overall_Max_us,Margin_pct,Recommended_WCET_us
+early_exit_search,755.100,502.200,0.67,random,755.100,50,1132.650
+collatz_loop,266.900,1086.700,4.07,adversarial,1086.700,50,1630.050
+nested_packet,31.700,599.600,18.91,adversarial,599.600,50,899.400
